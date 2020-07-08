@@ -7,6 +7,21 @@ starbucks = ["아이언맨", "토르", "아이엠 그루트"]
 for customer in starbucks:
     print("{}님 커피가 준비되었습니다.".format(customer))
 
+
+# 출석번호를 101, 102, 103 처럼 만들기
+students = [1, 2, 3, 4, 5]
+print(students)
+students = [i + 100 for i in students]
+print(students)
+
+# 학생 이름을 길이로 변환
+print(" \n학생 이름을 길이로 변환")
+students = ["Iron man", "thor", "I am groot"]
+students = [len(i) for i in students] # len() 공백도 카운트
+print(students)
+
+
+
 # while
 
 customer = "토르"
