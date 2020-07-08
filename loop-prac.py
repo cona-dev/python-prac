@@ -37,3 +37,5 @@ while person != customer:
         print("맛있게 드세요.")
     else:
         print("죄송합니다.")
+
+# continue는 break와 달리 다시 조건문으로 돌아가서 체크함
