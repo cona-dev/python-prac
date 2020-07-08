@@ -1,4 +1,6 @@
 # python-prac
 
-파이썬 기초 연습하기
+Python 코딩 무료 강의를 수강하며 기록
+강의 주소 - https://www.youtube.com/watch?v=kWiCuklohdY&feature=youtu.be
+
 
