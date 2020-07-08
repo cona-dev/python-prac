@@ -38,7 +38,7 @@ while index >= 1:
     
 customer = "아이언맨"
 while True: # 반복문에 종료조건 없으면 치명적이므로 무조건 break 조건 있어야 함.
-    print("{0}님 커피가 준비되었습니다.".format(customer, index))
+    print("{0}님 커피가 준비되었습니다.".format(customer))
     index += 1
     if(index > 10):
         break
