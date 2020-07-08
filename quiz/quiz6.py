@@ -16,7 +16,6 @@ Quiz6) 표준 체중을 구하는 프로그램을 작성하시오
 키 175cm 남자의 표준 체중은 67.38kg 입니다.
 
 """
-from math import *
 
 def std_weight(gender, height):
     height = height / 100
@@ -29,9 +28,11 @@ def std_weight(gender, height):
 gender = input("당신의 성별은? (f 또는 m) : ")
 height = int(input("당신의 키는? : "))
 
+weight = round(std_weight(gender, height), 2)
+
 if(gender == "f"):
-    print("키 {0}cm 여자의 표준 체중은 {1}kg 입니다.".format(height, round(std_weight(gender, height)),2) )
+    print("키 {0}cm 여자의 표준 체중은 {1}kg 입니다.".format(height, weight))
 else:
-    print("키 {0}cm 남자의 표준 체중은 {1}kg 입니다.".format(height, round(std_weight(gender, height)),2) )
+    print("키 {0}cm 남자의 표준 체중은 {1}kg 입니다.".format(height, weight))
 
 
