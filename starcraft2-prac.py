@@ -1,3 +1,4 @@
+# normal unit
 class Unit:
     def __init__(self, name, hp, damage):
         self.name = name
@@ -19,7 +20,7 @@ wraith2.clocking = True
 if wraith2.clocking == True:
     point("{0}는 현재 클로킹 상태입니다.".format(wraith2.name))
 """
-
+# attack unit
 class AttackUnit:
     def __init__(self, name, hp, damage):
         self.name = name
@@ -37,8 +38,11 @@ class AttackUnit:
         if self.hp <= 0:
             print("{} : 파괴되었습니다.".format(self.name))
     
+
+
 firebat1 = AttackUnit("firebat", 50, 16)
 firebat1.attack("5시")
 
 firebat1.damaged(25)
 firebat1.damaged(25)
+
