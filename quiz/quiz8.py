@@ -28,11 +28,14 @@ class House:
 
 # list 사용 - 강좌
 
-house = []
+houses = []
 house1 = House("강남", "아파트", "매매", "10억", "2010년")
 house2 = House("마포", "오피스텔", "전세", "5억", "2007년")
 house3 = House("송파", "빌라", "매매", "500/50", "2000년")
 
-house.append(house1)
-house.append(house2)
-house.append(house3)
+houses.append(house1)
+houses.append(house2)
+houses.append(house3)
+
+for house in houses:
+    house.show_detail()
