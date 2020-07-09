@@ -26,3 +26,8 @@ try:
 
 except ValueError:
     print("에러! 잘못된 값을 입력하였습니다.")
+except ZeroDivisionError as err: 
+    print(err)
+except Exception as err: # 0으로 나누기, 잘못된 인풋을 제외한 에러는 모두 여기서 처리하도록함
+    print("알 수 없는 에러가 발생하였습니다.")
+    print(err)
