@@ -8,3 +8,10 @@ trip_to = thailand.ThailandPackage()
 trip_to.detail()
 
 
+# module의 위치를 알 수 있는 함수 inspect
+print("\n >>>>> module의 위치를 알 수 있는 함수 inspect <<<<<")
+
+import inspect
+import random
+print(inspect.getfile(random))
+print(inspect.getfile(thailand))
