@@ -10,7 +10,11 @@
 # mv.price_morning(4)
 # mv.price_soldier(5)
 
-from theater_module import *
-price(3)
+# from theater_module import *
+# price(3)
+# price_morning(4)
+# price_soldier(5)
+
+from theater_module import price_morning
 price_morning(4)
-price_soldier(5)
+# price(3) # error
