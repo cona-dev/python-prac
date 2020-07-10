@@ -14,8 +14,6 @@ Quiz 9)
 class SoldOutError(Exception):
     pass
 
-
-
 chicken = 10
 waiting = 1
 while(True):
