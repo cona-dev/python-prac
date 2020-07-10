@@ -5,7 +5,12 @@
 # theater_module.price_soldier(5) # 5명 군인
 
 # module 약어 사용
-import theater_module as mv
-mv.price(3)
-mv.price_morning(4)
-mv.price_soldier(5)
+# import theater_module as mv
+# mv.price(3)
+# mv.price_morning(4)
+# mv.price_soldier(5)
+
+from theater_module import *
+price(3)
+price_morning(4)
+price_soldier(5)
